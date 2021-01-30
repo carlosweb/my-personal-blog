@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "title": "My first blog",
+            "body": "lorem impsum jkasd ksajdlk",
+            "author": "Carlos",
+            "id": 1
+        },
+        {
+            "title": "My second blog",
+            "body": "lorem impsum jkasd ksajdlk",
+            "author": "Carlos",
+            "id": 2
+        },
+        {
+            "title": "My thrid blog",
+            "body": "lorem impsum jkasd ksajdlk",
+            "author": "João",
+            "id": 3
+        }
+    ]
+}
