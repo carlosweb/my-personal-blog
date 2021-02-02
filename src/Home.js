@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import BlogLists from './BlogsList'
+import BlogList from './BlogsList'
 const Home = () => {
 
     const [blogs, setBlogs] =  useState(null)
@@ -31,8 +31,8 @@ const Home = () => {
         <div className="home">
             { error && <div>{error}</div> }
             { isPending && <div>Loading...</div>}
-           {blogs && <BlogLists blogs={blogs} title='My personal blog'/>}
-           {/* <BlogLists blogs={blogs.filter((blog) => blog.author === 'carlos')} title='Other blog' handleDelete={handleDelete} /> */}
+           {blogs && <BlogList blogs={blogs} title='My personal blog'/>}
+           {/* <BlogList blogs={blogs.filter((blog) => blog.author === 'carlos')} title='Other blog' handleDelete={handleDelete} /> */}
         </div>
      );
 }
